@@ -1,7 +1,7 @@
 import cv2
 import os
 
-fruit_classes = ['Carrot', 'Chili', 'Eggplant', 'Lemon', 'Okra']
+fruit_classes = ["Eggplant", "Ginger", "Lemon", "Okra", "Orange"]
 dataset_dir = 'dataset'
 
 os.makedirs(dataset_dir, exist_ok=True)

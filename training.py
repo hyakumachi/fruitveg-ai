@@ -5,7 +5,8 @@ from tensorflow.keras.applications import MobileNetV2
 import json
 from tensorflow.keras.callbacks import EarlyStopping
 
-dataset_dir = r"C:\Users\Lenovo\OneDrive\Documents\BSIT\EmergingTech_AI\dataset"
+dataset_dir = r"C:/Users/Lenovo/OneDrive/Documents/BSIT/EmergingTech_AI/dataset"
+# r"C:/Users/blspacanza/Downloads/fruitveg-ai-main/fruitveg-ai-main/dataset" sa pc ni sir
 
 train_datagen = ImageDataGenerator(
     rescale=1./255,
